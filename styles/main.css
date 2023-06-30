@@ -1,9 +1,54 @@
 body{
     background-color: white;
-}
+    
+    
 
+}
+h1{
+    margin: 0px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
 button{
 
     width: 30px;
     height: 30px;
+}
+input[type=submit]{
+    font-family: 'Roboto', sans-serif;
+}
+#punpun { 
+position: absolute;
+animation-direction:alternate ;
+animation: linear infinite;
+animation-name: run, change;
+animation-duration: 15s, 15s;
+
+
+}
+
+@keyframes run {
+    0% {
+        right: 0;
+
+    }
+
+    50% {
+        right: 100%;
+    }
+
+    100% {
+        right: 0;
+
+    }
+}
+@keyframes change {
+    
+                 100%{
+                    -webkit-transform: scaleX(-1);
+                        transform: scaleX(-1);
+                        
+                 }
+    
 }
