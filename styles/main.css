@@ -9,6 +9,19 @@ h1{
 }
 p{
     font-family: 'Roboto', sans-serif;
+    color: white;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    font-family:'Roboto', sans-serif;
+    margin: 5px; 
+}
+input::placeholder{
+    color:rgb(40, 75, 99);
+    opacity: 1;
+    font-weight: 550;
 }
 button{
 
@@ -17,6 +30,10 @@ button{
 }
 input[type=submit]{
     font-family: 'Roboto', sans-serif;
+}
+#box{
+    background-color: rgb(60, 110, 113);
+    border-radius: 30px;
 }
 #punpun { 
 position: absolute;
